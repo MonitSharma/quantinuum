@@ -1,6 +1,6 @@
 # Getting Started with pytket
 
-[![License](https://img.shields.io/github/license/quantinuum/pytket)](https://github.com/quantinuum/pytket/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/quantinuum/pytket)](https://github.com/MonitSharma/quantinuum/blob/main/LICENSE)
 
 Welcome to the pytket repository! Pytket is a versatile quantum computing toolkit developed by Quantinuum, designed to make it easier for you to work with quantum circuits, quantum compilation, and more.
 
