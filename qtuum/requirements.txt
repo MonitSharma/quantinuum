@@ -1,9 +1,0 @@
-# python>=3.6
-requests
-msal
-websockets
-nest_asyncio
-pyjwt
-keyring
-pytket
-pytket-quantinuum
