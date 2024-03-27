@@ -22,4 +22,4 @@ $$ \sigma = \frac{\hat{p}(1- \hat{p})}{n}$$
 
 where $\hat{p}$ is the binomially-ditributed observation, $\sigma$ is the standard deviation , and $n$ is the number of experiments.
 
-and $ z:  1- \frac{\alpha}{2}$ quantile. At $95\%$ , $ z \approx 2$
+and $z:  1- \frac{\alpha}{2}$ quantile. At $95\%$ , $z \approx 2$
