@@ -16,10 +16,10 @@ where $c:$ circuit fidelity, $f:$ two-qubit gate fidelity and $N=$ Number of two
 
 Confidence Interval Approximation 
 
-$$ p^{\hat} \pm z \sigma $$
+$$ \hat{p} \pm z \sigma $$
 
-$$ \sigma = \frac{p^{\hat}(1- p^{\hat})}{n}$$
+$$ \sigma = \frac{\hat{p}(1- \hat{p})}{n}$$
 
-where $p^{\hat}$ is the binomially-ditributed observation, $\sigma$ is the standard deviation , and $n$ is the number of experiments.
+where $\hat{p}$ is the binomially-ditributed observation, $\sigma$ is the standard deviation , and $n$ is the number of experiments.
 
 and $ z:  1- \frac{\alpha}{2}$ quantile. At $95\%$ , $ z \approx 2$
