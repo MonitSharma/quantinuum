@@ -1,64 +1,27 @@
-# Getting Started with pytket
+1. Guppy
 
+Guppy can be used with Python versions 3.10, 3.11, 3.12, 3.13 and 3.14. The MacOS, Linux and Windows operating systems are supported.
 
-
-Welcome to the pytket repository! Pytket is a versatile quantum computing toolkit developed by Quantinuum, designed to make it easier for you to work with quantum circuits, quantum compilation, and more.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-Quantum computing is an exciting and rapidly evolving field, and pytket aims to simplify the development of quantum software. Whether you're a beginner or an experienced quantum programmer, pytket can be a valuable tool in your quantum computing journey.
-
-## Installation
-
-To get started with pytket, you'll need to install it. You can install it via pip:
 
 ```bash
-pip install pytket
+uv pip install guppylang
 ```
 
-For more installation options and details, please refer to the [Installation Guide](https://github.com/quantinuum/pytket#installation).
 
-## Usage
+2. Selene
 
-Once you have pytket installed, you can start using it in your projects. Here's a simple example of creating a quantum circuit:
+Selene is an framework to run and verify Guppylang programs. It can be installed for local consumption on Windows, Linux and macOS as a local package called selene-sim. Alternatively, user can access cloud-hosted instances of Selene via the Nexus python client. Selene provides capability to:
 
-```python
-from pytket import Circuit
+<li> run Guppy programs;
+<li> debug Guppy programs;
+<li> provide resource estimates.
 
-# Create a quantum circuit
-circuit = Circuit(2)
 
-# Add gates to the circuit
-circuit.H(0)
-circuit.CX(0, 1)
-
-print(circuit)
-
+```bash
+uv pip install selene-sim
 ```
 
-For more examples and details on how to use pytket, visit the [Getting Started Guide](https://github.com/quantinuum/pytket#getting-started).
+
+3. Nexus
 
 
-## Documentation
-
-You can find detailed documentation and examples in the [official pytket documentation](https://pytket.readthedocs.io/).
-
-
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to the development of pytket or report issues, please refer to our [Contribution Guidelines](https://github.com/quantinuum/pytket/blob/main/CONTRIBUTING.md).
-
-
-## License
-
-Pytket is open-source and available under the [MIT License](https://github.com/quantinuum/pytket/blob/main/LICENSE).
